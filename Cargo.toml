@@ -1,0 +1,4 @@
+[package]
+name = "tcp_client_server"
+version = "0.0.2"
+authors = ["badrobotenergy <badrobotenergy@gmail.com>", "Bluealternate2 <unknown>"]
