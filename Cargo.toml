@@ -1,7 +1,15 @@
 [workspace.package]
 name = "tcp_client_server_echo_app"
-rust-version = "1.76"
+rust-version = "1.77.1"
 edition = "2021"
 license = "MIT"
 authors = ["badroboyenergy@gmail.com"]
 version = "0.1.0"
+
+[[bin]]
+name = "client"
+src = "src/client.rs"
+
+[[bin]]
+name = "server"
+src = "src/server.rs"
